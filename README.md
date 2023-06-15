@@ -44,7 +44,7 @@ Extend properties of parent not narrow it down. If child class is not able to pr
 </p>
 
 ## Interface Segregation Principle
-Interface should be such a class do not need to implement unecessary functions. This is similar to single responsibility principle. This enables to add specific interfaces for specific functionalities. This will reduce implementation of methods which will be unused.
+Interface should be such a class do not need to implement unecessary functions. This is similar to single responsibility principle. This enables to add specific interfaces for specific functionalities. This will reduce implementation of methods which will be unused and promotes modularity and reusability.
 
 <p align="center">
     <img
@@ -55,7 +55,7 @@ Interface should be such a class do not need to implement unecessary functions. 
 </p>
 
 ## Dependency Inversion Principle
-Rely on abstractions, not on concrete implementations. High level modules should not depend on low level modules. Both should depend on abstraction. Abstaraction should not depend on details . Details should depend upon abstraction. This is done to reduce tight coupling.
+Rely on abstractions, not on concrete implementations. High level modules should not depend on low level modules. Both should depend on abstraction. Abstaraction should not depend on details . Details should depend upon abstraction. This is done to reduce tight coupling and allow us to create extensible classes.
 
 <p align="center">
     <img
