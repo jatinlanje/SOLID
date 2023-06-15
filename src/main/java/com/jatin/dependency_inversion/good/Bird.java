@@ -17,4 +17,5 @@ class Bird {
 we introduce the Flyable interface,
 and the Bird class depends on the abstraction (Flyable) rather than concrete implementations.
 This allows us to decouple the Bird class from specific bird types and enables easier extension.
+It accepts an instance of Flyable through its constructor, following the Dependency Inversion Principle.
  */
